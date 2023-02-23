@@ -1,0 +1,1 @@
+export const freeze = (ms:number) => new Promise( res => setTimeout(res, ms));
